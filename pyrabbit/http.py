@@ -1,7 +1,9 @@
-
 import json
 import os
 import socket
+import geventhttpclient.httplib
+geventhttpclient.httplib.patch()
+
 import httplib2
 try:
     from urlparse import urljoin

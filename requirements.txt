@@ -2,3 +2,4 @@ nose
 httplib2
 mock
 unittest2
+geventhttpclient
